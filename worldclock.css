@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wallpoet', cursive;
+}
+
+html, body, .conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content:space-evenly;
+    height: 90%;
+    place-items: center;
+    background: #000;
+}
+
+.heading{
+    font-size: 4rem;
+    color: #7BF500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    animation: animate 1.5s linear infinite;
+}
+
+.wrapper{
+    height: 100px;
+    width: 360px;
+    margin: 0px;
+    cursor: default;
+    border-radius: 10px;
+    animation: animate 1.5s linear infinite;
+}
+
+.wrapper .display, .wrapper span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.wrapper .display{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: #1b1b1b;
+    height: 85px;
+    width: 345px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wrapper .display #timeMtl{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+.wrapper .display #timeSp{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+.wrapper .display #timeLondon{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+.wrapper .display #timeKiev{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+.wrapper .display #timeTokyo{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+.wrapper .display #timeSydney{
+    line-height: 85px;
+    color: #7BF500;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    animation: animate 1.5s linear infinite; 
+    -webkit-background-clip: text;
+}
+
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(180deg);
+    }
+}
+
+.wrapper span{
+    height: 00%;
+    width: 100%;
+    background: inherit;
+    border-radius: 10px;   
+}
+
+.place{
+    color: #737373;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5px;
+
+}
